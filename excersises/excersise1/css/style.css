@@ -1,0 +1,21 @@
+div {
+  width:600px;
+margin :auto;
+
+}
+body{
+  background: grey;
+  font-family: sans-serif;
+}
+blockquote{
+
+  border:1px solid white;
+  text-align: center;
+  padding: 10px;
+
+  margin-left: 0px;
+}
+h1, h2{
+font-weight: 600;
+
+}
