@@ -1,5 +1,4 @@
 .bar{
-
 	margin-top:10px;
 	background: #D2691E;
 	height:50px;
@@ -28,16 +27,12 @@ body{
  a{
 	color:black;
 	text-decoration: none;
-      }
+  }
 
  a:hover{
 	color:white;
 	text-decoration: underline;
    }
-
-
-
-
 
 .wrap img{
 	width:960px;
@@ -51,21 +46,22 @@ section div{
 	padding:10px;
 	background: khaki;
 	font-style:italic;
-
 	font-size:17px;
 	}
 
 	section div ul{
-		font-family: 'Open Sans';
+	font-family: 'Open Sans';
 	display:inline;
 	font-size:18px;
 	font-style:bold;
 	color:black;
-	list-style-type:square; }
+	list-style-type:square;
+  }
 
 section div a:hover{
 	color:red;
-}
+ }
+
 .header{
 	background: #F0E68C;
 	margin:0px;
@@ -86,16 +82,17 @@ h1{
 	font-family:'Tangerine', serif;
 	font-size:120px;}
 
-	.middle,.middle1{
+.middle,.middle1{
 	width:300px;
 	 height:280px;
-			 	}
+ 	}
 
 .middle1{
 	position:relative;
-	bottom:40px;}
+	bottom:40px;
+  }
 
-	.grid_4 img{
+.grid_4 img{
 	 width:320px;
 	 height:300px;
 			}
@@ -106,20 +103,21 @@ h1{
 		}
 
 .breaker{
-				color:black;
+  	color:black;
 		padding-top:18px;
 		height:160px;
 		background: #D2691E;
-
 		float:left;
 		width:960px;
 		text-align:center;
 		font-style: italic;
 		}
+
 .breaker h2{
 		font-size: 60px;
 		font-family:'Tangerine', serif;
-}
+   }
+
 .foot{
 	background:#D2691E;
 	font-style:bold;
@@ -128,29 +126,28 @@ h1{
 	position:relative;
 	text-decoration: none;
 	left:20px;
-}
+ }
 
-    footer{
-      position:relative;
-      bottom:40px;
-     height:120px;
-     background:#D2691E;
+footer{
+    position:relative;
+    bottom:40px;
+    height:120px;
+   background:#D2691E;
      padding-top:20px;
 		 font-family: 'Open Sans', sans-serif;
 		 font-size: 35px;
+  }
 
-     }
-   .foot1{
-		 font-family: 'Open Sans', sans-serif;
+.foot1{
+  	 font-family: 'Open Sans', sans-serif;
 		 color:green;
-   clear:both;
-   background: white;
-   text-align:center;
-   margin-top:80px;
+     clear:both;
+     background: white;
+     text-align:center;
+    margin-top:80px;
    }
 
  footer img{
  height:35px;
  width:35px;
-
  }

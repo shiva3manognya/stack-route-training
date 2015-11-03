@@ -1,15 +1,17 @@
-.bar{
-
+.bar {
 	background: #F5F5DC;
 	height:60px;
 	padding-top: 5px;
-	}
-	h1{
-		font-family:'Tangerine', serif;
-		font-size:80px;}
+}
+
+h1 {
+	font-family:'Tangerine', serif;
+	font-size:80px;
+}
+
 body{
 	background:gray;
-	}
+}
 
 .bar ul{
 	margin-top:10px;
@@ -23,7 +25,6 @@ body{
 	display:inline;
 	padding:20px;
 	font-size: 20px;
-
 	}
 
 .bar a{
@@ -32,26 +33,22 @@ body{
       }
 
 .bar a:hover{
-
 	text-decoration: underline;
    }
 
 .wrap img{
 	width:960px;
 	height:450px;
-
 		}
 
-	.grid_6 {
+.grid_6 {
 			box-sizing: border-box;
 			padding :10px;
-
 	 width:470px;
 	 height: 400px;
-
 		}
 
-	 .grid_6 img {
+	.grid_6 img {
 		 width:300px;
 		 height:300px;
 		 margin-left: 35px;
@@ -59,11 +56,10 @@ body{
 		 border-radius: 15px;
 		 margin-top: 25px;
 	 }
-	.primary{
+
+.primary{
 	    background: gray;
 	  }
-
-
 
 .header{
 	background: #F0E68C;
@@ -71,49 +67,50 @@ body{
 	text-align:center;
 	padding:8px;
 	}
+
 section .h6{
 	margin-top: 20px;
 	font-family: 'Open Sans';
 	color:black;
 	font-size:18px
-}
+  }
 
 section img:hover {
-
 border: 3px solid black;
-
-}
+ }
 
 .foot{
-	background:black;
+
 	font-style:bold;
 	font-family: 'Open Sans', sans-serif;
 	font-size:22px;
 	position:relative;
 	text-decoration: none;
 	left:20px;
+ }
+.foot a{
+	color:white;
 }
-
-
-
-    footer{
-
+footer{
       position:relative;
 			top:35px;
       bottom:0px;
      height:80px;
-     background:black;
+     background:#20252A;
+
      padding-top:20px;
-font-family: 'Open Sans', sans-serif;
+     font-family: 'Open Sans', sans-serif;
      }
-   .foot1{
+
+.foot1{
    clear:both;
    background: white;
+
    text-align:center;
    margin-top:80px;
    }
- footer img{
+
+footer img{
  height:35px;
  width:35px;
-
  }
