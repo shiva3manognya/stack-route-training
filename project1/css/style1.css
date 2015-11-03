@@ -56,7 +56,9 @@ body{
 		 border-radius: 15px;
 		 margin-top: 25px;
 	 }
-
+ .sech6{
+	 margin-top:30px; font-family: 'Open Sans';	color:black; font-size:18px;
+ }
 .primary{
 	    background: gray;
 	  }
@@ -67,8 +69,10 @@ body{
 	text-align:center;
 	padding:8px;
 	}
-
-section .h6{
+.secimg{
+	position:relative;left:85px;
+}
+section .head{
 	margin-top: 20px;
 	font-family: 'Open Sans';
 	color:black;
