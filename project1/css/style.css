@@ -1,8 +1,10 @@
 .bar{
-	margin-top:10px;
+	margin-top:0px;
 	background: #D2691E;
 	height:50px;
 	padding-top: 5px;
+	position: fixed;
+	width: 1360px;
 	}
 
 body{
@@ -11,6 +13,7 @@ body{
 
 .bar ul{
 	margin-top:10px;
+		margin-left: 240px;
 	}
 
 .bar ul li{
@@ -67,8 +70,11 @@ section div a:hover{
 	margin:0px;
 	height:160px;
 	text-align:center;
-	padding:8px;
+	padding-top:8px;
+	margin-top: 45px;
 	}
+
+
 
 .header img{
 	margin-top: 20px;
@@ -114,6 +120,7 @@ h1{
 		}
 
 .breaker h2{
+	padding-top: 20px;
 		font-size: 60px;
 		font-family:'Tangerine', serif;
    }

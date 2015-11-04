@@ -1,9 +1,13 @@
 .bar {
 	background: #F5F5DC;
-	height:60px;
+	height:40px;
 	padding-top: 5px;
+	position: fixed;
+	width: 1360px;
 }
-
+.bar a:hover{
+	color:gray;
+}
 h1 {
 	font-family:'Tangerine', serif;
 	font-size:80px;
@@ -14,7 +18,9 @@ body{
 }
 
 .bar ul{
-	margin-top:10px;
+	margin-top:5px;
+	margin-left: 200px;
+	margin-bottom: 10px;
 	}
 
 .bar ul li{
@@ -57,7 +63,7 @@ body{
 		 margin-top: 25px;
 	 }
  .sech6{
-	 margin-top:30px; font-family: 'Open Sans';	color:black; font-size:18px;
+	 margin-top:22px; font-family: 'Open Sans';	color:black; font-size:18px;
  }
 .primary{
 	    background: gray;
@@ -68,6 +74,7 @@ body{
 	margin:0px;
 	text-align:center;
 	padding:8px;
+	margin-top: 45px;
 	}
 .secimg{
 	position:relative;left:85px;
@@ -84,7 +91,6 @@ border: 3px solid black;
  }
 
 .foot{
-
 	font-style:bold;
 	font-family: 'Open Sans', sans-serif;
 	font-size:22px;
@@ -105,7 +111,9 @@ footer{
      padding-top:20px;
      font-family: 'Open Sans', sans-serif;
      }
-
+footer a:hover{
+	color:black;
+}
 .foot1{
    clear:both;
    background: white;
