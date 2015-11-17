@@ -13,21 +13,23 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Layout
    -------------------------------------- */
+
    .jumbotron h1{
      font-family: 'Tangerine', sans-serif;
           font-size: 70px;
    }
-   .jumbotron{
 
+   .jumbotron{
     max-height:600px;
      margin-top: 20px;
      padding-top: 10px;
-
    }
+
  .jumbotron p{
+   text-indent: 50px;
    font-family: 'Open Sans';
    font-size: 20px;
- }
+  }
 
  #featuresHeading h2{
    font-family: 'Tangerine', sans-serif;
@@ -36,10 +38,12 @@ Notes:	 Hand coded for Udemy.com
  }
 
 .lead{
+  text-indent: 50px;
   font-family: 'Open Sans';
   font-size: 20px;
 }
- .feature {
+
+.feature {
    text-align: center;
    margin-right: 0px;
    margin-top:20px;
@@ -49,37 +53,41 @@ Notes:	 Hand coded for Udemy.com
    font-family: 'Open Sans';
  }
 
-.sub-content {
 
+.sub-content {
   background-color: #fff;
   margin-bottom: 30px;
-  padding: 20px 0px 20px 15px;
+  padding: 20px 5px 20px 10px;
 }
 
 .sub-content p, .sub-content ul{
   font-family: 'Open Sans';
   font-size: 16px;
-
-
+  padding-right: 5px;
 }
- .sub-content .page-header {
+
+.sub-content p {
+text-indent: 20px;
+}
+
+.sub-content .page-header {
    text-align: center;
  	margin-top: 0;
+  padding:auto;
  }
 
- .sub-content .page-header h1 {
+.sub-content .page-header h1 {
    font-size: 70px;
     font-family: 'Tangerine', sans-serif;
  	  margin-top: 0;
  }
+
  .sub-content img {
    width: 100%;
    height: auto;
 	 max-height:350px;
    min-height:200px;
-
  }
-
 
  footer {
  	background: #333;
@@ -94,16 +102,24 @@ Notes:	 Hand coded for Udemy.com
  }
 
 #searchInputfoot {
- height:20px;
+    width:100%;
+  max-width: 200px;;
+ height:28px;
 }
 
+#searchInputfootspan{
+  padding: 0px 5px;
+}
+
+.popover {
+  color:green;
+  font-style: italic;
+  }
 
 
 
 
-/* --------------------------------------
-   Typography
-   -------------------------------------- */
+
 
 
 
@@ -113,38 +129,51 @@ Notes:	 Hand coded for Udemy.com
 
 
 
-
-
-pre{
-      border: none;
-    font-style: italic;
-     font-size: 20px;
-     font-family: 'Dosis', sans-serif;
-    margin-top: 0px;
-   }
-
-
-.navbar{
-  margin-top: 5px;
-  height: 50px;
+.login{
+  font-size: 15px;
+  width:200px;
+  height:40px;
 }
 
-.navbar  {
+
+pre {
+      border: none;
+    font-style: italic;
+    font-size: 16px;
+    width:200px;
+    height:50px;
+    padding: 10px auto;
+    background: white;
+}
+
+pre a{
+  font-family: 'Dosis', sans-serif;
+}
+
+.navbar{
+  margin-top: 0px;
+  padding: 5px 0px;
+  height: 60px;
+  color:black;
  font-family: cursive;
  font-family: 'Tangerine', sans-serif;
- font-size: 30px;
+ font-size: 40px;
  background: white;
-
 }
 
 .navbar-brand{
   font-family: 'Tangerine', sans-serif;
   font-size: 50px;
+  font-weight: bolder;
 }
 
 .nav-collapse{
   margin: auto;
   height:50px;
+}
+
+.dropdown-header{
+  font-size: 25px;
 }
 
 
@@ -165,22 +194,27 @@ margin-bottom: 15px;
 /* --------------------------------------
    Carousel
    -------------------------------------- */
+   #myCarousel {
+   	margin-top: 90px;
+   }
+
 #myCarousel .item img {
   min-width: 100%;
   min-height: 300px;
   max-height: 700px;
-
 }
 
-.carousel-caption{
-  font-size: 24px;
+.carousel-caption p{
+  font-size: 20px;
 }
 
-.carousel-caption h4{
-    font-size: 32px;
+.carousel-caption h2{
+    font-size: 90px;
+    font-family: 'Tangerine', sans-serif;
 }
 
 #pfeaturesHeading {
+  margin-top: 70px;
   text-align: center;
 }
 
@@ -188,7 +222,6 @@ margin-bottom: 15px;
   margin-left: 15px;
   width:100px;
   height:100px;
-  /*float:left;*/
   margin-top: 5px;
   border-radius: 300px;
 }
@@ -196,7 +229,6 @@ margin-bottom: 15px;
 #pfeaturesHeading img:hover {
   border:2px solid red;
   border-radius: 0;
-
 }
 
 .img-rounded {
@@ -208,16 +240,42 @@ margin-bottom: 15px;
   border: 2px solid red;
 }
 
+.panel h3{
+  font-family: 'Tangerine', sans-serif;
+  font-size: 45px;
+}
+
 .panel p {
   margin-top: 15px;
+  font-size: 16px;
 }
 
 .panel img{
   max-width: 80%;
 }
+.price{
+  position: absolute;
+  top:-14px;
+  right: 0px;
+  font-size: 16px;
+  padding: 10px;
+font-style: italic;
+letter-spacing: 1px;
+
+}
 
 .tabbable   {
   background: grey;
+}
+
+#info {
+  font-family: 'Tangerine', sans-serif;
+  font-size: 50px;
+}
+
+.tabbable li a{
+  color:black;
+  font-size: 15px;
 
 }
 
@@ -227,6 +285,7 @@ margin-bottom: 15px;
 }
 
 #searchInput1{
+  margin-left: 20px;
   float: left;
   width: 60%;
 }
@@ -240,8 +299,7 @@ margin-bottom: 15px;
    -------------------------------------- */
 
 body {
-  background:rgba(185, 130, 6, 0.8);
-
+  background:lightblue;
 }
 
 /* --------------------------------------
@@ -249,7 +307,29 @@ body {
    -------------------------------------- */
 
 /* Portrait & landscape phone */
+@media (max-width: 220px) {
+
+  #searchInput1span{
+    margin-top: 20px;
+
+  }
+
+}
+
 @media (max-width: 480px) {
+
+
+  #myCarousel {
+   margin-top: 160px;
+  }
+
+  .carousel-caption p{
+    font-size: 16px;
+  }
+
+  .carousel-caption h2{
+      font-size: 35px;
+  }
 
   .jumbotron h1,#featuresHeading h2{
      font-size: 50px;
@@ -258,22 +338,29 @@ body {
   font-size: 15px;
   }
 
+  #butt{
+    float: left;
+    padding:0px;
+    text-indent: 0px;
+  }
+
  .feature img{
     width:220px;
- }
-
- pre{
-   font-size: 15px;
-   width:140px;
  }
 
  .navbar-brand{
    font-family: 'Tangerine', sans-serif;
    font-size: 40px;
+   font-weight: bolder;
  }
 
 #searchInput1 {
   width:140px;
+}
+
+#searchInput1span{
+
+  margin-left: 15px;
 }
 
 }
@@ -281,29 +368,29 @@ body {
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
 
-
-  #myCarousel .item {
-    height:350px;
+  #myCarousel {
+   margin-top: 20px;
   }
 
-
-  .carousel-caption{
+  .carousel-caption p{
     font-size: 16px;
   }
 
-  .carousel-caption h4{
-      font-size: 22px;
+  .carousel-caption h2{
+      font-size: 60px;
   }
 
+  .navlinks {
+    background: white;
+        color:black;
+        font-size: 30px;
+  }
 
 }
 
 
 /* Large desktop */
 @media (min-width: 1200px) {
-
-
-
 
 
 }

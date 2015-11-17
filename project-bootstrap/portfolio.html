@@ -26,7 +26,7 @@
 
   <div class="container" id="main">
 
-    <div class="navbar ">
+    <div class="navbar navbar-fixed-top ">
         <div class="container-fluid">
             <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
                   <span class="icon-bar"></span>
@@ -36,28 +36,26 @@
            <a href="#" class="navbar-brand"> Art Gallery  </a>
            <div class="nav-collapse collapse navbar-responsive-collapse ">
               <ul class="nav navbar-nav">
-                  <li class="active">
+                  <li class="navlinks">
                      <a href="services.html">Home </a>
                    </li>
 
-                  <li class="dropdown">
+                  <li class="dropdown navlinks">
                      <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Services <strong class="caret"></strong> </a>
                      <ul class="dropdown-menu">
-                          <li><a href="#">Web Design </a></li>
-                          <li><a href="#">Web Development </a></li>
-                          <li><a href="#">SEO </a></li>
-                          <li class="divider"></li>
-                          <li class="dropdown-header">More Services </li>
-                          <li><a href="#">Content Creation </a></li>
-                          <li><a href="#">Social media </a></li>
+                       <li><a href="#">Artists </a></li>
+                       <li><a href="#">Gallery </a></li>
+                       <li><a href="#">Sculpture </a></li>
+                       <li class="divider"></li>
+                       <li class="dropdown-header">More Services </li>
+                       <li><a href="#">Art Making </a></li>
+                       <li><a href="#">Sale </a></li>
                      </ul>
                   </li>
 
-
-
-                   <li>
+                  <li class="active">
                        <a href="portfolio.html"> Portfolio </a>
-                    </li>
+                  </li>
 
                  </ul>
 
@@ -89,6 +87,7 @@
                         <h3 class="panel-title">3D art</h3>
                     </div><!-- end panel-heading -->
                     <a href=""><img src="images1/images2.jpg" alt="img" class="img-rounded"></a>
+
                     <p>3D art  turns something ordinary into an extraordinary piece..</p>
                     <a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Buy and Own!!</a>
                     <div class="modal fade" id="myModal">
@@ -170,6 +169,8 @@
                       <h3 class="panel-title"> Bright Sunset</h3>
                   </div><!-- end panel-heading -->
                   <a href="#">  <img src="images1/images1.jpg" class="img-rounded" alt="img"/></a>
+                  <div class="label label-info price"><span class="glyphicon glyphicon-tag"></span> Offer</div>
+
                   <p> It is to be noted that Vision is the art of seeing what is invisible to others, thanks to the creative minds and talents of artists.!!!</p>
                   <a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Buy and Own!!</a>
             </div><!-- end panel -->
@@ -181,6 +182,8 @@
                       <h3 class="panel-title"> Gautam Buddha portrait</h3>
                   </div><!-- end panel-heading -->
                   <a href="#"><img src="images1/buddha.jpg" alt="img" class="img-rounded" /></a>
+                  <div class="label label-info price"><span class="glyphicon glyphicon-tag"></span> Offer</div>
+
                   <p>Dream for an art of balance, purity and serenity. The aim of an art is to represent not just the outward appearance but the inner significance....</p>
                   <a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Buy and Own!!</a>
             </div><!-- end panel -->
@@ -200,9 +203,9 @@
     </div> <!-- end row -->
 
 
-   <div class="row" id="moreInfo">
+   <div class="row" >
         <div class="col-sm-12">
-            <h3>Neat Tabbable Content</h3>
+            <h3 id="info">Insights</h3>
                 <div class="tabbable">
                     <ul class="nav nav-tabs">
                         <li class="active"><a href="#tab1" data-toggle="tab">New Releases</a></li>
@@ -229,7 +232,7 @@
                             <div class="col-sm-6 feature">
                                 <div class="panel">
                                     <div class="panel-heading">
-                                        <h3 class="panel-title">Landscape Oil Painting  </h3>
+                                        <h3 class="panel-title">Scenic Beauty  </h3>
                                    </div><!-- end panel-heading -->
                                    <a href="#"><img src="images1/beauty.jpg" class="img-rounded" alt="image"></a>
                                    <p>  Price:Rs 45000
@@ -237,7 +240,7 @@
                                     Support Base: hard board
                                     Style: 0il painting
                                     Size: 33*23 " Check  delivery to your location </p>
-                                   <input type="text" class="form-control" placeholder="ENTER PINCODE"  id="searchInput1"><span> <button class="btn btn-success" > CHECK </button> </span>
+                                   <input type="text" class="form-control" placeholder="ENTER PINCODE"  id="searchInput1"><span> <button class="btn btn-success" id="searchInput1span" > CHECK </button> </span>
                                  <hr> <a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> BUY NOW </a>
                                </div><!-- end panel -->
                             </div><!-- end feature -->
