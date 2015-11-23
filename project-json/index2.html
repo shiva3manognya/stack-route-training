@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+	<style>
+
+  .bar{
+    /*fill: steelblue;*/
+  }
+
+  .bar:hover{
+    fill: black;
+  }
+
+	.axis {
+	  font: 15px sans-serif;
+	}
+
+	.axis path,
+	.axis line {
+	  fill: none;
+	  stroke: #000;
+	  shape-rendering: crispEdges;
+	}
+
+
+	</style>
+</head>
+
+<body>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+<script>
+// set the dimensions of the canvas
+var margin = {top: 10, right: 20, bottom: 320, left: 110},
+    width = 1000 - margin.left - margin.right,
+    height = 900 - margin.top - margin.bottom;
+
+var z=d3.scale.category10();
+// set the ranges
+var x = d3.scale.ordinal().rangeRoundBands([0, width], .05);
+
+var y = d3.scale.linear().range([height, 0]);
+
+// define the axis
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom")
+
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+    .ticks(10);
+
+
+// add the SVG element
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform",
+          "translate(" + margin.left + "," + margin.top + ")");
+
+
+// load the data
+d3.json("plot3.json", function(error, dat) {
+
+      data=dat.edudist;
+
+    data.forEach(function(d) {
+        d.category = d.category;
+        d.india_total= +d.india_total;
+    });
+
+  // scale the range of the data
+  x.domain(data.map(function(d) { return d.category; }));
+  y.domain([0, d3.max(data, function(d) { return d.india_total; })]);
+
+  // add axis
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis)
+    .selectAll("text")
+      .style("text-anchor", "end")
+      .attr("dx", "-.8em")
+      .attr("dy", "-.55em")
+      .attr("transform", "rotate(-90)" );
+
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 5)
+      .attr("dy", "1em")
+      .style("text-anchor", "end")
+      .text("Population");
+
+
+  // Add bar chart
+  svg.selectAll("bar")
+      .data(data)
+    .enter().append("rect")
+      .attr("class", "bar")
+			.transition()
+			.delay(function(d, i) { return i * 100; })
+			.duration(200)
+
+			.attr("fill", function(d,i){  return z(i);})
+      .attr("x", function(d) {  return x(d.category); })
+      .attr("width", x.rangeBand())
+      .attr("y", function(d) { return y(d.india_total); })
+      .attr("height", function(d) { return height - y(d.india_total)});
+
+			
+
+
+});
+
+</script>
+
+</body>

@@ -1,0 +1,214 @@
+{
+    "grad_pop": [
+        {
+            "state": "JAMMU",
+            "total": 692484,
+            "male": 426555,
+            "female": 265929
+        },
+        {
+            "state": "HIMACHAL",
+            "total": 517101,
+            "male": 293449,
+            "female": 223652
+        },
+        {
+            "state": "PUNJAB",
+            "total": 1919669,
+            "male": 960456,
+            "female": 959213
+        },
+        {
+            "state": "CHANDIGARH",
+            "total": 206036,
+            "male": 111494,
+            "female": 94542
+        },
+        {
+            "state": "UTTARAKHAND",
+            "total": 1002397,
+            "male": 568963,
+            "female": 433434
+        },
+        {
+            "state": "HARYANA",
+            "total": 1994600,
+            "male": 1183849,
+            "female": 810751
+        },
+        {
+            "state": "DELHI",
+            "total": 2918192,
+            "male": 1636077,
+            "female": 1282115
+        },
+        {
+            "state": "RAJASTHAN",
+            "total": 3526541,
+            "male": 2461922,
+            "female": 1064619
+        },
+        {
+            "state": "UTTAR",
+            "total": 10898205,
+            "male": 7086446,
+            "female": 3811759
+        },
+        {
+            "state": "BIHAR",
+            "total": 3235648,
+            "male": 2471458,
+            "female": 764190
+        },
+        {
+            "state": "SIKKIM",
+            "total": 42848,
+            "male": 24812,
+            "female": 18036
+        },
+        {
+            "state": "ARUNACHAL",
+            "total": 86937,
+            "male": 58823,
+            "female": 28114
+        },
+        {
+            "state": "NAGALAND",
+            "total": 165044,
+            "male": 96513,
+            "female": 68531
+        },
+        {
+            "state": "MANIPUR",
+            "total": 294135,
+            "male": 178447,
+            "female": 115688
+        },
+        {
+            "state": "MIZORAM",
+            "total": 95396,
+            "male": 56437,
+            "female": 38959
+        },
+        {
+            "state": "TRIPURA",
+            "total": 165796,
+            "male": 107556,
+            "female": 58240
+        },
+        {
+            "state": "MEGHALAYA",
+            "total": 154962,
+            "male": 77020,
+            "female": 77942
+        },
+        {
+            "state": "ASSAM",
+            "total": 1130319,
+            "male": 718327,
+            "female": 411992
+        },
+        {
+            "state": "WEST",
+            "total": 5355274,
+            "male": 3463977,
+            "female": 1891297
+        },
+        {
+            "state": "JHARKHAND",
+            "total": 1532170,
+            "male": 1039975,
+            "female": 492195
+        },
+        {
+            "state": "ODISHA",
+            "total": 1965889,
+            "male": 1303987,
+            "female": 661902
+        },
+        {
+            "state": "CHHATTISGARH",
+            "total": 1216588,
+            "male": 799269,
+            "female": 417319
+        },
+        {
+            "state": "MADHYA",
+            "total": 3591389,
+            "male": 2311433,
+            "female": 1279956
+        },
+        {
+            "state": "GUJARAT",
+            "total": 3471795,
+            "male": 2083498,
+            "female": 1388297
+        },
+        {
+            "state": "DAMAN",
+            "total": 13349,
+            "male": 8774,
+            "female": 4575
+        },
+        {
+            "state": "DADRA",
+            "total": 21779,
+            "male": 13880,
+            "female": 7899
+        },
+        {
+            "state": "MAHARASHTRA",
+            "total": 9505517,
+            "male": 5730823,
+            "female": 3774694
+        },
+        {
+            "state": "ANDHRA",
+            "total": 6307880,
+            "male": 4125374,
+            "female": 2182506
+        },
+        {
+            "state": "KARNATAKA",
+            "total": 4496451,
+            "male": 2799580,
+            "female": 1696871
+        },
+        {
+            "state": "GOA",
+            "total": 152131,
+            "male": 77010,
+            "female": 75121
+        },
+        {
+            "state": "LAKSHADWEEP",
+            "total": 4288,
+            "male": 2682,
+            "female": 1606
+        },
+        {
+            "state": "KERALA",
+            "total": 2662074,
+            "male": 1187364,
+            "female": 1474710
+        },
+        {
+            "state": "TAMIL",
+            "total": 6073079,
+            "male": 3495384,
+            "female": 2577695
+        },
+        {
+            "state": "PUDUCHERRY",
+            "total": 154784,
+            "male": 87072,
+            "female": 67712
+        },
+        {
+            "state": "ANDAMAN",
+            "total": 24580,
+            "male": 13832,
+            "female": 10748
+        }
+    ]
+}
